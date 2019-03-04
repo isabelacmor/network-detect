@@ -1,0 +1,29 @@
+{
+  "name": "network-detect",
+  "version": "1.0.0",
+  "description": "NetworkDetect is a React component that detects changes in network connectivity and shows an offline UI.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "isabela.cmor@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.8.6",
+    "react": "^16.8.3",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.2.3"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  }
+}
